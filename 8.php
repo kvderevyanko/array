@@ -18,3 +18,14 @@ print_r($array);
 
 Ключи и значения при сортировке должны быть сохранены
  */
+asort($array);
+print_r($array);
+
+arsort($array);
+print_r($array);
+
+ksort($array);
+print_r($array);
+
+krsort($array);
+print_r($array);
